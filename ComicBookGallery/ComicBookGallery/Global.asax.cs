@@ -11,7 +11,7 @@ namespace ComicBookGallery
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
+            AreaRegistration.RegisterAllAreas();//register mvc areas in our website, in smaller parts
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
     }
